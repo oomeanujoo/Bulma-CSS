@@ -1,0 +1,41 @@
+.button,
+.hero-head,
+.card-header {
+  -webkit-text-fill-color: white;
+  background-image: linear-gradient(
+    to right bottom,
+    #8825d1,
+    #8531d4,
+    #813bd7,
+    #7e43d9,
+    #7b4bdb,
+    #7e4edd,
+    #8050de,
+    #8353e0,
+    #8b52e1,
+    #9450e2,
+    #9c4fe3,
+    #a44de3
+  );
+}
+
+#maincard {
+  background-image: linear-gradient(
+    to right bottom,
+    #1a1c20,
+    #1e2024,
+    #232529,
+    #27292d,
+    #2c2e32
+  );
+}
+
+@media screen and (max-width: 750px) {
+  .button,
+  .card-header-title,
+  .navbar-brand {
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+}
